@@ -1,10 +1,7 @@
 'use strict';
 import React from 'react';
-import {
-  Link
-} from 'react-router';
 
-export default class TextBlock extends React.Component {
+export default class SectionBlock extends React.Component {
 
   render() {
     return (

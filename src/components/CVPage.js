@@ -1,91 +1,71 @@
 'use strict';
 
-import React from 'react';
-import TextBlock from './common/TextBlock';
+import React            from 'react';
+import SectionBlock     from './CVComponents/SectionBlock';
+import TextSectionBlock from './CVComponents/TextSectionBlock';
+import JobOverviewBlock from './CVComponents/JobOverviewBlock';
 
 export default class CVPage extends React.Component {
   render() {
     return (
-      <div className="home">
-        <div className="athletes-selector">
-        <TextBlock favicon="fa fa-user" label="Overview">
-          <div className="item">
-            <p>
-              4 years of experience in Software Development. At most i worked with Ruby On Rails
-            </p>
-          </div>
+      <div className="cx-page">
+        <SectionBlock favicon="fa fa-user" label="Overview">
+          <TextSectionBlock label="Summary">
+            <ul>
+              <li>4 years of experience in Software Development. At most i worked with Ruby On Rails</li>
+              <li>Deep knowledge of software development and maintenance processes</li>
+              <li>Bachelar degree in computer science</li>
+              <li>Intermediate English communication skills (writing: regular e-mail correspondence; speaking: intermediate, regular calls with clients)</li>
+            </ul>
+          </TextSectionBlock>
 
-          <div className="item">
-            <p>
-              Production experience in: RoR(3,4), JavaScript, C# Mono, C++(Bitcoin forks, Arduino), Java, SQL (details in “professional skills” section)
-            </p>
-          </div>
+          <TextSectionBlock label="Production experience in">
+            <ul>
+              <li>Ruby On Rails - 3,4,5</li>
+              <li>JavaScript - AngularJS1, EmberJS(last 3 months), ReactJS(this website :))</li>
+              <li>C# Mono</li>
+              <li>C++(Bitcoin forks, Arduino)</li>
+              <li>SQL - MySQL, PostgreSQL</li>
+              <li>Nginx, Apache, Heroku, Amazon</li>
+            </ul>
+          </TextSectionBlock>
 
-          <div className="item">
-            <p>
-              Deep knowledge of software development and maintenance processes
-            </p>
-          </div>
+        </SectionBlock>
 
-          <div className="item">
-            <p>
-              Intermediate English communication skills (writing: regular e-mail correspondence; speaking: intermediate, regular calls with clients)
-            </p>
-          </div>
+        <SectionBlock favicon="fa fa-briefcase" label="Worked for">
+            <JobOverviewBlock
+              position="Ruby On Rails Developer"
+              company="BelItSoft. Minsk, Belarus"
+              period="June 2016 - Present"
+              tags={["Ruby", "Ruby On Rails 5", "AngularJS", "EmberJS", "Heroku", "Amazon", "MySQL", "PostgreSQL"]}>
+              I decided to return to work with Ruby On Rails. 9 months Worked for <a className="underline-link" href="http://global.parrot.com/au/products/flower-power/">Parrot Flower Power</a> project. An incredible sensor that assesses your plants needs. Currently work for <a className="underline-link" href="http://global.parrot.com/au/products/flower-power/">Monterosa</a>. Monterosa provides technology and ideas that shape the future of fan interaction across entertainment and sport.
+            </JobOverviewBlock>
 
-          <div className="item">
-            <p>
-              Current location: Minsk, Belarus
-            </p>
-          </div>
+            <JobOverviewBlock
+              position="Software Developer - R&D Department"
+              company="ITRex. Minsk, Belarus"
+              period="September 2015 - June 2016"
+              tags={["Arduino", "C++", "BLE", "C#", "MVC .Net", "AngularJS", "Jquery", "Cordoba"]}>
+              After i came from USA i got an offer to work on Arduino C++ project to develope a smart colar for pets. I worked on an arduino sketch. It the colar which users can manage t TODO
+            </JobOverviewBlock>
 
-        </TextBlock>
+            <JobOverviewBlock
+              position="Landscaper :)"
+              company="Ocean Edge. Cape Cod, USA"
+              period="June 2015 - September 2015"
+              tags={["Relax :)", "English", "Cordoba", "Mobile apps with JS"]}>
+              I decided to go to the USA to relax, improve English and get USA culture :). In free time read books and tried mobile apps with Ionic and Cordoba on JS.
+            </JobOverviewBlock>
 
-        <section className="section experiences-section">
-            <h2 className="section-title"><i className="fa fa-briefcase"></i>Experiences</h2>
+            <JobOverviewBlock
+              position="Ruby On Rails Developer"
+              company="Engine-it. Minsk, Belarus"
+              period="September 2013 - June 2015"
+              tags={["Ruby", "Ruby On Rails 3-4", "Apache", "Nginx", "MySQL", "PostgreSQL", "Redis", "Jquery", "AngularJS", "Cryptocurrency", "C# Mono", "C++ Bitcon"]}>
+              First Company where i worked :) Mostly developed Blockchain based applications: Blockchain explorers, Cryptocurrencies exchanges. Have got very big experience in parsing of blockchain. Last 6 monthes worked on small RoR projects for Axe and Russian McDonalds. Implemented some kind of TimeTracking system like ODesk.
+            </JobOverviewBlock>
+        </SectionBlock>
 
-            <div className="item">
-                <div className="meta">
-                    <div className="upper-row">
-                        <h3 className="job-title">Lead Developer</h3>
-                        <div className="time">2015 - Present</div>
-                    </div>
-                    <div className="company">Startup Hubs, San Francisco</div>
-                </div>
-                <div className="details">
-                    <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</p>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                </div>
-            </div>
-
-            <div className="item">
-                <div className="meta">
-                    <div className="upper-row">
-                        <h3 className="job-title">Senior Software Engineer</h3>
-                        <div className="time">2014 - 2015</div>
-                    </div>
-                    <div className="company">Google, London</div>
-                </div>
-                <div className="details">
-                    <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-
-                </div>
-            </div>
-
-            <div className="item">
-                <div className="meta">
-                    <div className="upper-row">
-                        <h3 className="job-title">UI Developer</h3>
-                        <div className="time">2012 - 2014</div>
-                    </div>
-                    <div className="company">Amazon, London</div>
-                </div>
-                <div className="details">
-                    <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-                </div>
-            </div>
-
-        </section>
 
         <section className="section projects-section">
             <h2 className="section-title"><i className="fa fa-archive"></i>Projects</h2>
@@ -164,7 +144,6 @@ export default class CVPage extends React.Component {
 
             </div>
         </section>
-        </div>
       </div>
     );
   }

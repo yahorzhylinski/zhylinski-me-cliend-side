@@ -14,5 +14,45 @@
 }
 
 .main-wrapper {
-  padding: 20px;
+  padding: 30px;
+  padding-right: 270px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #42A8C0;
+  color: white;
+  margin: 0px 5px 5px 0px;
+  border-radius: 3px;
+  font-size: 13px;
+
+  cursor: pointer;
+
+  -webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+.tag:hover {
+  background-color: #2d7788;
+}
+
+.navbar-default {
+  background-color: white;
+  border-radius: 0px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
+}
+
+.underline-link {
+  text-decoration: underline;
 }
