@@ -1,17 +1,23 @@
 'use strict';
 
 import React from 'react'
-import { Route, IndexRoute } from 'react-router'
-import Layout from './components/Layout';
-import IndexPage from './components/IndexPage';
-import AthletePage from './components/AthletePage';
-import NotFoundPage from './components/NotFoundPage';
+import {
+  Route,
+  IndexRoute
+} from 'react-router'
+
+import Layout        from './components/Layout';
+import CVPage        from './components/CVPage';
+import AboutMePage   from './components/AboutMePage';
+import AboutSitePage from './components/AboutSitePage';
+import NotFoundPage  from './components/NotFoundPage';
 
 const routes = (
   <Route path="/" component={Layout}>
-    <IndexRoute component={IndexPage}/>
-    <Route path="athlete/:id" component={AthletePage}/>
-    <Route path="*" component={NotFoundPage}/>
+    <IndexRoute              component={CVPage}        />
+    <Route path="about-me"   component={AboutMePage}   />
+    <Route path="about-site" component={AboutSitePage} />
+    <Route path="*"          component={NotFoundPage}  />
   </Route>
 );
 
