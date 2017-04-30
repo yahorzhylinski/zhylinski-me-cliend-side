@@ -8,3 +8,11 @@
 .profile-container .profile {
   width: 200px;
 }
+
+.interests-container .fa.fa-heart::before {
+  color: red;
+}
+
+.main-wrapper {
+  padding: 20px;
+}

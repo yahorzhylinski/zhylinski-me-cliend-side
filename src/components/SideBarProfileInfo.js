@@ -53,9 +53,9 @@ export default class SideBarProfileInfo extends React.Component {
         <div className="interests-container container-block">
           <h2 className="container-block-title">Interests</h2>
           <ul className="list-unstyled interests-list">
-            <li>Football</li>
-            <li>Arduino</li>
-            <li>Wife :-)</li>
+            <li><i className="fa fa-futbol-o"></i> Football</li>
+            <li><i className="fa fa-gamepad"></i> Arduino</li>
+            <li><i className="fa fa-heart"></i> Wife</li>
           </ul>
         </div>
       </div>
