@@ -13,7 +13,7 @@ export default class Layout extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="main-container">
         <Navbar />
 
         <div className="wrapper">
