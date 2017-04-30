@@ -6,6 +6,13 @@ import {
 
 export default class Navbar extends React.Component {
 
+  closeNavbar(event) {
+    // if bar is open
+    if($('.navbar-collapse.collapse.in').length > 0) {
+      $('.navbar-toggle').click()
+    }
+  }
+
   render() {
     return (
       <nav className="navbar navbar-default">
@@ -17,16 +24,16 @@ export default class Navbar extends React.Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <Link className="navbar-brand" to="/">
+            <Link onClick={this.closeNavbar} className="navbar-brand" to="/">
               <img src="img/sign.png" />
             </Link>
           </div>
 
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul className="nav navbar-nav">
-              <li><Link to="/">CV</Link></li>
-              <li><Link to="/about-me">About Me</Link></li>
-              <li><Link to="/about-site">About Website</Link></li>
+              <li><Link onClick={this.closeNavbar} to="/">CV</Link></li>
+              <li><Link onClick={this.closeNavbar} to="/about-me">About Me</Link></li>
+              <li><Link onClick={this.closeNavbar} to="/about-site">About Website</Link></li>
             </ul>
 
             <ul className="nav navbar-nav navbar-right">

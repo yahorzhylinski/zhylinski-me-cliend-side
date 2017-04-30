@@ -6,7 +6,6 @@ export default class SideBarProfileInfo extends React.Component {
 
   render() {
     return (
-
       <div className="sidebar-wrapper">
         <div className="profile-container">
           <img className="profile" src="/img/avatar.png" alt="" />
@@ -54,7 +53,7 @@ export default class SideBarProfileInfo extends React.Component {
           <h2 className="container-block-title">Interests</h2>
           <ul className="list-unstyled interests-list">
             <li><i className="fa fa-futbol-o"></i> Football</li>
-            <li><i className="fa fa-gamepad"></i> Arduino</li>
+            <li><i className="fa fa-power-off"></i> Arduino</li>
             <li><i className="fa fa-heart"></i> Wife</li>
           </ul>
         </div>
