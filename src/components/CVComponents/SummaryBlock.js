@@ -27,6 +27,18 @@ export default class SummaryBlock extends React.Component {
             <li>Nginx, Apache, Heroku, Amazon</li>
           </ul>
         </TextSectionBlock>
+
+        <TextSectionBlock label="My interesting github repositories">
+          <ul>
+            <li><a href="https://github.com/yahorzhylinski/parrot-binary-decoder">parrot-binary-decoder</a> - test task for Parrot - Ruby on Rails</li>
+            <li><a href="https://github.com/yahorzhylinski/plateau_and_rovers">plateau_and_rovers</a> - test task for Catawiki(Holland). After i signed a contract with them but for some reasons Migration Department declined my relocate :(</li>
+            <li><a href="https://github.com/yahorzhylinski/pdf-generator">pdf-generator</a> - test task for Oxagile - Ruby On Rails + Angular</li>
+            <li><a href="https://github.com/yahorzhylinski/base-two-reverser">base-two-reverser</a> - test task for ITRex</li>
+            <li><a href="https://github.com/yahorzhylinski/Greedy-algorithm-Java">Greedy-algorithm-Java</a></li>
+            <li><a href="https://github.com/yahorzhylinski/image-magick-handler">image-magick-handler</a> - image-magick with build pattern - ruby</li>
+          </ul>
+        </TextSectionBlock>
+
       </SectionBlock>
     );
   }

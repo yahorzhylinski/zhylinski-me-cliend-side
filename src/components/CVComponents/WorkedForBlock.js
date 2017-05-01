@@ -15,15 +15,7 @@ export default class WorkedForBlock extends React.Component {
             period="June 2016 - Present"
             tags={["Ruby", "Ruby On Rails 5", "AngularJS", "EmberJS", "Heroku", "Amazon", "MySQL", "PostgreSQL"]}>
             I decided to return to work with Ruby On Rails. BelItSoft is company that provides dedicates teams. 9 months I worked for <a className="underline-link" href="http://global.parrot.com/au/products/flower-power/">Parrot Flower Power</a> project.
-            <blockquote>
-              <p>A sensor that assesses your plants needs. Sends notification to you phone about sunshine brightless, fertilizer, ... Also it can water you plant :)</p>
-              <footer>Flower Power</footer>
-            </blockquote>
             At the current moment i work for work for <a className="underline-link" href="http://global.parrot.com/au/products/flower-power/">Monterosa</a>.
-            <blockquote>
-              <p>Monterosa provides technology and ideas that shape the future of fan interaction across entertainment and sport.(2-screen media)</p>
-              <footer>monterosa.co</footer>
-            </blockquote>
             Both projects are work/ed as a Ruby On Rails Developer.
           </JobOverviewBlock>
 
@@ -32,7 +24,7 @@ export default class WorkedForBlock extends React.Component {
             company="ITRex. Minsk, Belarus"
             period="September 2015 - June 2016"
             tags={["Arduino", "C++", "BLE", "C#", "MVC .Net", "AngularJS", "Jquery", "Cordoba"]}>
-            After i came from USA i got an offer to work on Arduino C++ project to develop a smart colar for pets. I worked on an arduino sketch. This colar helps people to track pets location with a mobile phone. This colar also disallow pets to go out from permitted location. I also have worled on .Net project. but it was too small.
+            After i came from USA i got an offer to work on Arduino C++ project to develop a smart collar for pets. I worked on an arduino sketch. This collar helps people to track pets location with a mobile phone. This collar also disallow pets to go out from permitted location. I also have worled on .Net project. but it was too small.
           </JobOverviewBlock>
 
           <JobOverviewBlock
