@@ -9,6 +9,11 @@ export default class CVPage extends React.Component {
   render() {
     return (
       <div className="cx-page">
+
+        <div className="text-right">
+          <a className="btn btn-success" target="_blank" href="docs/pdf_version.pdf">Download PDF Version</a>
+        </div>
+
         <SummaryBlock />
         <WorkedForBlock />
         <ProjectsBlock />
