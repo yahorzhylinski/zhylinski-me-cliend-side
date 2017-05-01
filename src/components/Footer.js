@@ -7,7 +7,10 @@ export default class Footer extends React.Component {
     return (
       <footer className="footer">
           <div className="text-center">
-                  <small className="copyright">Designed with <i className="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+                  <small className="copyright">
+                    Template by Xiaoying Riley (MIT).
+                    Developed with ReactJS by <a href="http://yahor.zhylinski.me">Yahor Zhylinski</a>.
+                    </small>
           </div>
       </footer>
     );

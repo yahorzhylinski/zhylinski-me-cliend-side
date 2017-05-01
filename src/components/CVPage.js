@@ -78,82 +78,23 @@ export default class CVPage extends React.Component {
 
 
         <section className="section projects-section">
-            <h2 className="section-title"><i className="fa fa-archive"></i>Projects</h2>
-            <div className="intro">
-                <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
+            <div className="item">
+            TEST
             </div>
             <div className="item">
-                <span className="project-title"><a href="#hook">Velocity</a></span> - <span className="project-tagline">A responsive website template designed to help startups promote, market and sell their products.</span>
-
+            TEST
             </div>
             <div className="item">
-                <span className="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/" target="_blank">DevStudio</a></span> -
-                <span className="project-tagline">A responsive website template designed to help web developers/designers market their services. </span>
+            TEST
             </div>
             <div className="item">
-                <span className="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-startups-tempo/" target="_blank">Tempo</a></span> - <span className="project-tagline">A responsive website template designed to help startups promote their products or services and to attract users &amp; investors</span>
-            </div>
+            TEST
+          </div>
             <div className="item">
-                <span className="project-title"><a href="hhttp://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-mobile-apps-atom/" target="_blank">Atom</a></span> - <span className="project-tagline">A comprehensive website template solution for startups/developers to market their mobile apps. </span>
-            </div>
-            <div className="item">
-                <span className="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank">Delta</a></span> - <span className="project-tagline">A responsive Bootstrap one page theme designed to help app developers promote their mobile apps</span>
+              TEST
             </div>
         </section>
 
-        <section className="skills-section section">
-            <h2 className="section-title"><i className="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
-            <div className="skillset">
-                <div className="item">
-                    <h3 className="level-title">Python &amp; Django</h3>
-                    <div className="level-bar">
-                        <div className="level-bar-inner" data-level="98%">
-                        </div>
-                    </div>
-                </div>
-
-                <div className="item">
-                    <h3 className="level-title">Javascript &amp; jQuery</h3>
-                    <div className="level-bar">
-                        <div className="level-bar-inner" data-level="98%">
-                        </div>
-                    </div>
-                </div>
-
-                <div className="item">
-                    <h3 className="level-title">Angular</h3>
-                    <div className="level-bar">
-                        <div className="level-bar-inner" data-level="98%">
-                        </div>
-                    </div>
-                </div>
-
-                <div className="item">
-                    <h3 className="level-title">HTML5 &amp; CSS</h3>
-                    <div className="level-bar">
-                        <div className="level-bar-inner" data-level="95%">
-                        </div>
-                    </div>
-                </div>
-
-                <div className="item">
-                    <h3 className="level-title">Ruby on Rails</h3>
-                    <div className="level-bar">
-                        <div className="level-bar-inner" data-level="85%">
-                        </div>
-                    </div>
-                </div>
-
-                <div className="item">
-                    <h3 className="level-title">Sketch &amp; Photoshop</h3>
-                    <div className="level-bar">
-                        <div className="level-bar-inner" data-level="60%">
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
       </div>
     );
   }
